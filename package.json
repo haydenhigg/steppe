@@ -1,0 +1,20 @@
+{
+  "name": "steppe",
+  "version": "0.0.1",
+  "description": "An access control back end",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "buildrun": "tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hayden Higginbotham",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.12.5"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
