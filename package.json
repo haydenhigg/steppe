@@ -11,9 +11,12 @@
   "keywords": [],
   "author": "Hayden Higginbotham",
   "dependencies": {
-    "fastify": "^5.12.5"
+    "argon2": "^0.45.1",
+    "fastify": "^5.12.5",
+    "jsonwebtoken": "^9.0.3"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^26.6.3",
     "typescript": "^7.0.2"
   }
